@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<title>Destek / Support | Üçlü: Kart Oyunu</title>
+<style>
+  :root {
+    --page: #FFF2F5; --card: #FFFFFF; --ink: #2A0A18; --muted: #6E2A3E; --link: #A8102F; --hair: #F2C3CD;
+    --fill-bg: #FFE4EA; --fill-ink: #7A0B24; --fill-line: #C8173A;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page: #2A0510; --card: #3E0516; --ink: #FFE3E9; --muted: #F2C3CD; --link: #FF8FA3; --hair: #6E2A3E;
+      --fill-bg: #7A0B24; --fill-ink: #FFE4EA; --fill-line: #FF8FA3;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font: 400 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    overflow-wrap: break-word;
+  }
+  header {
+    background: linear-gradient(160deg, #C8173A 0%, #A8102F 55%, #8E0E2C 100%);
+    color: #FFFFFF; padding: 28px 16px 24px;
+  }
+  .wrap { max-width: 42rem; margin: 0 auto; }
+  header p { margin: 0; }
+  .brand { font-size: 1.75rem; font-weight: 800; line-height: 1.2; letter-spacing: 0.01em; }
+  .brand-en { font-size: 1rem; font-weight: 600; margin-top: 4px; }
+  nav { margin-top: 16px; display: flex; gap: 20px; flex-wrap: wrap; }
+  nav a {
+    color: #FFFFFF; font-weight: 700; text-decoration: underline; text-underline-offset: 3px;
+    display: inline-block; padding: 8px 0; min-height: 44px;
+  }
+  main { padding: 20px 16px 8px; }
+  section {
+    background: var(--card); border: 1px solid var(--hair); border-radius: 16px;
+    padding: 20px 18px 8px; margin: 0 auto 20px; max-width: 42rem;
+  }
+  h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 6px; font-weight: 800; }
+  h2 { font-size: 1.125rem; line-height: 1.35; margin: 24px 0 6px; font-weight: 700; }
+  p { margin: 0 0 12px; }
+  .meta { color: var(--muted); font-size: 0.9375rem; margin-bottom: 16px; }
+  .summary { border-left: 4px solid var(--fill-line); padding: 2px 0 2px 12px; font-weight: 600; }
+  a { color: var(--link); }
+  .fill {
+    background: var(--fill-bg); color: var(--fill-ink); border: 2px dashed var(--fill-line); border-radius: 6px;
+    padding: 0 6px; font-weight: 700; white-space: nowrap;
+  }
+  .nw { white-space: nowrap; }
+  footer { color: var(--muted); font-size: 0.875rem; text-align: center; padding: 4px 16px 32px; }
+  footer p { margin: 0; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="brand">Üçlü: Kart Oyunu</p>
+    <p class="brand-en" lang="en">High Three: Card Game</p>
+    <nav aria-label="Sayfalar / Pages">
+      <a href="#tr" hreflang="tr">Türkçe</a>
+      <a href="#en" hreflang="en" lang="en">English</a>
+      <a href="../privacy/">Gizlilik / Privacy</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section id="tr" lang="tr">
+  <h1>Destek</h1>
+  <p class="summary">Bir sorun, öneri ya da gizlilikle ilgili bir isteğin varsa e-posta gönder: <a href="mailto:nacar.dev@gmail.com">nacar.dev@gmail.com</a></p>
+  <h2>Yazarken</h2>
+  <p>Telefonunun modelini, oyunda ne yaptığını, ne beklediğini ve ne olduğunu yaz; ekran görüntüsü yardımcı olur. Şifre,
+  doğrulama kodu ya da ödeme bilgisi asla gönderme.</p>
+  <h2>İlerlemen</h2>
+  <p>Oyun hesap açtırmaz ve internetsiz oynanır. Ayarların, istatistiklerin ve yarım kalan oyunun yalnız telefonunda
+  tutulur; oyunu silersen bunlar da silinir (telefonunun kendi yedeği geri getirebilir).</p>
+  <h2>Başarımlar</h2>
+  <p>Google Play Games (Android) ya da Game Center (iPhone) isteğe bağlıdır. Giriş yaparsan kazandığın başarımlar oraya da
+  gönderilir; giriş yapmasan da oyunun tamamı oynanır.</p>
+</section>
+<section id="en" lang="en">
+  <h1>Support</h1>
+  <p class="summary">For a problem, a suggestion or a privacy request, email <a href="mailto:nacar.dev@gmail.com">nacar.dev@gmail.com</a></p>
+  <h2>When you write</h2>
+  <p>Include your phone model, what you did in the game, what you expected and what happened; a screenshot helps. Never
+  send a password, a sign-in code or payment details.</p>
+  <h2>Your progress</h2>
+  <p>The game needs no account and plays offline. Your settings, statistics and an unfinished game are kept only on your
+  phone; deleting the game deletes them too (your phone's own backup may restore them).</p>
+  <h2>Achievements</h2>
+  <p>Google Play Games (Android) and Game Center (iPhone) are optional. If you sign in, the achievements you earn are sent
+  there too; without signing in the whole game is playable.</p>
+</section>
+</main>
+<footer><p>Nacar</p></footer>
+</body>
+</html>

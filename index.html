@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<title>Üçlü: Kart Oyunu / High Three: Card Game</title>
+<style>
+  :root {
+    --page: #FFF2F5; --card: #FFFFFF; --ink: #2A0A18; --muted: #6E2A3E; --link: #A8102F; --hair: #F2C3CD;
+    --fill-bg: #FFE4EA; --fill-ink: #7A0B24; --fill-line: #C8173A;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page: #2A0510; --card: #3E0516; --ink: #FFE3E9; --muted: #F2C3CD; --link: #FF8FA3; --hair: #6E2A3E;
+      --fill-bg: #7A0B24; --fill-ink: #FFE4EA; --fill-line: #FF8FA3;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font: 400 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    overflow-wrap: break-word;
+  }
+  header {
+    background: linear-gradient(160deg, #C8173A 0%, #A8102F 55%, #8E0E2C 100%);
+    color: #FFFFFF; padding: 28px 16px 24px;
+  }
+  .wrap { max-width: 42rem; margin: 0 auto; }
+  header p { margin: 0; }
+  .brand { font-size: 1.75rem; font-weight: 800; line-height: 1.2; letter-spacing: 0.01em; }
+  .brand-en { font-size: 1rem; font-weight: 600; margin-top: 4px; }
+  nav { margin-top: 16px; display: flex; gap: 20px; flex-wrap: wrap; }
+  nav a {
+    color: #FFFFFF; font-weight: 700; text-decoration: underline; text-underline-offset: 3px;
+    display: inline-block; padding: 8px 0; min-height: 44px;
+  }
+  main { padding: 20px 16px 8px; }
+  section {
+    background: var(--card); border: 1px solid var(--hair); border-radius: 16px;
+    padding: 20px 18px 8px; margin: 0 auto 20px; max-width: 42rem;
+  }
+  h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 6px; font-weight: 800; }
+  h2 { font-size: 1.125rem; line-height: 1.35; margin: 24px 0 6px; font-weight: 700; }
+  p { margin: 0 0 12px; }
+  .meta { color: var(--muted); font-size: 0.9375rem; margin-bottom: 16px; }
+  .summary { border-left: 4px solid var(--fill-line); padding: 2px 0 2px 12px; font-weight: 600; }
+  a { color: var(--link); }
+  .fill {
+    background: var(--fill-bg); color: var(--fill-ink); border: 2px dashed var(--fill-line); border-radius: 6px;
+    padding: 0 6px; font-weight: 700; white-space: nowrap;
+  }
+  .nw { white-space: nowrap; }
+  footer { color: var(--muted); font-size: 0.875rem; text-align: center; padding: 4px 16px 32px; }
+  footer p { margin: 0; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="brand">Üçlü: Kart Oyunu</p>
+    <p class="brand-en" lang="en">High Three: Card Game</p>
+    <nav aria-label="Sayfalar / Pages">
+      <a href="privacy/">Gizlilik / Privacy</a>
+      <a href="support/">Destek / Support</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section lang="tr">
+  <h1>Üçlü: Kart Oyunu</h1>
+  <p>İki kişilik Türk koz oyunu Üçlü; Çırak, Kalfa ve Usta'ya karşı.</p>
+  <p><a href="privacy/#tr">Gizlilik politikası</a></p>
+  <p><a href="support/#tr">Destek</a></p>
+</section>
+<section lang="en">
+  <h1>High Three: Card Game</h1>
+  <p>The Turkish two-player trick-taking game Üçlü, against three fair bots.</p>
+  <p><a href="privacy/#en">Privacy policy</a></p>
+  <p><a href="support/#en">Support</a></p>
+</section>
+</main>
+<footer><p>Nacar</p></footer>
+</body>
+</html>
